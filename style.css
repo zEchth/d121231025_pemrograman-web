@@ -10,10 +10,17 @@ body {
     border: 1px solid black;
 }
 
-.container {
+.main-container {
     display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.container-1{
+    display: flex;
+    margin-top: 20vh;
     background-color: white;
-    margin-top: 25vh;
     align-self: center;
     align-items: center;
     justify-self: center;
@@ -22,13 +29,42 @@ body {
     box-shadow: 1px 1px 5px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
 }
-.container p {
-    margin: 8px;
-    font-size: 20px;
+
+.container-1 p {
+    margin: 4px;
+    font-size: 18px;
 }
 
-h1{
+.container-1 h1 {
     background-color: lightblue;
     width: 100%;
     text-align: center;
+    padding: 10px;
+    border-radius: 5px 5px 0 0;
+}
+
+.container-1 h2{
+    margin-top: 15px;
+}
+
+.container-1 .desc {
+    font-size: 18px;
+    text-align: center;
+    margin: 10px;
+}
+
+.img-container img {
+    margin-top: 10px;
+    border-radius: 100%;
+}
+
+.contact {
+    color: #434343;
+}
+
+footer {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: gray;
 }
