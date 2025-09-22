@@ -7,23 +7,43 @@
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css" rel="stylesheet">
   </head>
   <body>
+    <nav class="navbar">
+      <h1>My Portofolio</h1>
+      <ul>
+        <li><a href="#">About</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+    
     <div class="main-container">
+      
       <div class="container-1">
-        <h1>My Portofolio</h1>
         <div class="img-container">
-
           <img src="img/image.jpg" alt="Foto Profil" width="150" height="150" />
         </div>
-        <p>Nama: Fauzan Al Fath</p>
-        <p>NIM: D121231025</p>
-        <p>Kelas: A</p>
-
-        <h2>About me</h2>
-        <p class="desc">Hi, saya Fauzan Al Fath, mahasiswa semester 5 dari Universitas Hasanuddin Fakultas Teknik, jurusan Teknik Informatika</p>
-        <p class="contact">Contact: <a href="https://www.instagram.com/_cutsch"> <i class="fa-brands fa-instagram"></i></a> <a href=""><i class="fa-brands fa-facebook"></i></a>  </p>
+          <p>Nama: Fauzan Al Fath</p>
+          <p>NIM: D121231025</p>
+          <p>Kelas: A</p>
       </div>
 
+      <div class="container-2">
+        <h2>About me</h2>
+        <p class="desc_about-me">Hi, saya Fauzan Al Fath, mahasiswa semester 5 dari Universitas Hasanuddin Fakultas Teknik, jurusan Teknik Informatika</p>
+      </div>
+      
+    </div>
 
+    <div class="contact" id="contact">
+      <h2>Contact Me</h2>
+      <form action="#" method="post">
+        <input type="text" name="name" placeholder="Your Name" required />
+        <input type="email" name="email" placeholder="Your Email" required />
+        <textarea name="message" rows="5" placeholder="Your Message" required></textarea>
+        <button type="submit">Send</button>
+      </form>
+
+      <p class="contact-fast"> social media: <a href="https://www.instagram.com/_cutsch"> <i class="fa-brands fa-instagram"></i></a> <a href=""><i class="fa-brands fa-facebook"></i></a>  </p>
+      
     </div>
 
     <footer>
